@@ -14,8 +14,8 @@ It serves as a hub for students and visitors to access resources, announcements,
 - Bootstrap
 
 ## Screenshot
-
-
+![screenshot](images/Screenshot1.png)
+![screenshot](images/screenshot2.png)
 
 
 ## Installation
