@@ -14,8 +14,8 @@ It serves as a hub for students and visitors to access resources, announcements,
 - Bootstrap
 
 ## Screenshot
-![image alt]([images/Screenshot1.png](https://github.com/husna0608/husna06/blob/9e69da4517bac2c83d805b8f66687a2b2ea24d3a/Screenshot%201.png))
-![image alt]([images/Screenshot2.png](https://github.com/husna0608/husna06/blob/b01ef605205cab2cbbc5698f43f584efb27ae0ae/Screenshot%202.png))
+![screenshot](https://github.com/husna0608/husna06/blob/9e69da4517bac2c83d805b8f66687a2b2ea24d3a/Screenshot%201.png))
+![screenshot](https://github.com/husna0608/husna06/blob/b01ef605205cab2cbbc5698f43f584efb27ae0ae/Screenshot%202.png))
 
 
 ## Installation
