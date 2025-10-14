@@ -26,7 +26,7 @@ It serves as a hub for students and visitors to access resources, announcements,
 
 ## Contributors
 - Name: Husna Hunaina Binti Hasri
-- Course: Information Technology Communication
+- Course: Information Technology and Communication
 - Institution: Politeknik Kuching Sarawak
 
 
