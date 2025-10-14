@@ -14,7 +14,7 @@ It serves as a hub for students and visitors to access resources, announcements,
 - Bootstrap
 
 ## Screenshot
-![Alert text](images/Screenshot1.png)
+![Alert text]([images/Screenshot1.png](https://github.com/husna0608/husna06/blob/9e69da4517bac2c83d805b8f66687a2b2ea24d3a/Screenshot%201.png))
 ![Alert text](images/Screenshot2.png)
 
 
