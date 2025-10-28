@@ -1,0 +1,204 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+     <!--Bootstrap-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Registration Form</title>
+  
+  </head>
+<body>
+    <div style="text-align: center;"><h1 style="font-family: verdana;">BLOOM COLLEGE</h1></div>
+    <div style="text-align: center;"><h6 style="font-family: verdana;">Student Registration Form</h6></div>
+
+</form>
+
+<!-- SECTION -->
+  <div class="box"></div>
+  <div class="container my-5">
+  <div class="mb-3 row">
+    <div class="col-md-6 d-flex align-items-center">
+      <p>Student images:</p>
+    </div>
+
+    <form id="registrationForm">
+
+      <form id="registrationForm" class="p-4 border rounded shadow-sm">
+      <div class="mb-3 row align-items-center">
+        <label for="studentImage" class="col-sm-2 col-form-label">Student image:</label>
+          <div class="col-sm-10">
+            <input type="file" class="form-control" id="studentImage" accept="image/*">
+            <small class="form-text text-muted">(less than 5 Mb)</small>
+          </div>
+        </div>
+
+<!--form-->
+<form>
+  <div class="mb-3">
+    <label for="inputname">Student Name:</label>
+    <div class="col-sm-8">
+      <input type="text" class="form-control" id="inputname" placeholder="Student Full Name" onfocus="focusFunction(this)" onblur="blurFunction(this)" required>
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="inputname">Father's Name:</label>
+    <div class="col-sm-8">
+      <input type="string" class="form-control" id="inputname" placeholder="Father's Full Name"onfocus="focusFunction(this)" onblur="blurFunction(this)"  required>
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="inputname">Mother's Name:</label>
+    <div class="col-sm-8">
+      <input type="string" class="form-control" id="inputname" placeholder="Mother's Full Name" onfocus="focusFunction(this)" onblur="blurFunction(this)" required>
+    </div>
+  </div>
+
+  <fieldset class="mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Gender:</legend>
+    <div class="col-sm-8">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+          Male
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          Female
+        </label>
+      </div>
+      </div>
+
+    <div class="mb-3">
+    <label for="inputdate">Date of Birth:</label>
+    <div class="col-sm-3">
+      <input type="date" class="form-control" id="inputdate" required>
+    </div>
+  </div>  
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1">Email address:</label>
+     <div class="col-sm-8">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onfocus="focusFunction(this)" onblur="blurFunction(this)"required>
+    </div>
+    </div>
+
+<div class="mb-3">
+<label for="selected">Level:</label>
+<div class="col-sm-8"></div>
+  <select class="form-select form-select-sm" aria-label="Small select example">
+  <option selected="1">Phd</option>
+  <option value="2">Degree</option>
+  <option value="3">Diploma</option>
+  <option value="4">SPM</option>
+</select>
+
+<div class="mb-3"></div>
+<label for="selected" >Department:</label>
+<div class="col-sm-8"></div>
+  <select class="form-select form-select-sm" aria-label="Small select example">
+  <option selected="1">Computer Engineering</option>
+  <option value="2">Electrical Engineering</option>
+  <option value="3">Mechanical Engineering</option>
+  <option value="4">Petrochemical Engineering</option>
+  <option value="5">Information and Communication Technology</option>
+</select>
+
+<div class="mb-3">
+    <label for="phone">Email address:</label>
+     <div class="col-sm-8">
+    <input type="tel" class="form-control" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" >
+    </div>
+    </div>
+
+    <div>
+    <p>-----------------------------------------------------------------------------</p>
+    </div>
+
+  <div style="text-align: center;"> <h4>Address</h4></div>
+
+   <div class="col-sm-8">
+    <label for="validationCustom03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCustom03" placeholder="City">
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+  </div>
+  <div class="col-sm-8">
+    <label for="validationCustom04" class="form-label">State</label>
+    <select class="form-select" id="validationCustom04" placeholder="State">
+      <option selected disabled value="">Select</option>
+      <option value="1">Sarawak</option>
+      <option value="2">Sabah</option>
+      <option value="3">Selangor</option>
+      <option value="4">Perak</option>
+      <option value="5">Johor</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a valid state.
+    </div>
+  </div>
+  <div class="col-sm-8">
+    <label for="validationCustom05" class="form-label">Postcode</label>
+    <input type="text" class="form-control" id="validationCustom05" placeholder="Postcode" pattern="[0-9]{4}">
+    <div class="invalid-feedback">
+      Please provide a valid zip.
+    </div>
+  </div>
+
+<div>
+    <p>-----------------------------------------------------------------------------</p>
+    </div>
+
+     <!--button-->
+      <div class="text-center">
+        <button type="button" class="btn btn-primary me-2" onclick="submitForm()">Register</button>
+        <button type="reset" class="btn btn-secondary">Reset</button>
+      </div>
+    </form>
+  </div>
+
+ <!--message-->
+      <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content text-center p-3">
+          <div class="modal-body">
+            <h5 class="fw-bold text-success mb-3">Your details have been saved!</h5>
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+      <script>
+      function resetField(field) {
+        field.style.backgroundColor = "";
+      }
+
+      function highlightField(field) {
+        field.style.backgroundColor = "#fff3cd";
+      }
+
+      function toCaps(field) {
+        field.value = field.value.toUpperCase();
+      }
+
+      function clearStyles() {
+        document.querySelectorAll('#registrationForm input').forEach(field => {
+          field.style.backgroundColor = "";
+        });
+      }
+
+      function submitForm() {
+        const form = document.getElementById('registrationForm');
+        if (form.checkValidity()) {
+          const modal = new bootstrap.Modal(document.getElementById('successModal'));
+          modal.show();
+        } else {
+          alert("Your details have been saved!");
+        }
+      }
+    </script> 
+  </div>   
+  </body>
+  </html>
+
